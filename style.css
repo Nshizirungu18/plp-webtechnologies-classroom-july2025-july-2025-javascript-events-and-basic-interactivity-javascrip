@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#counter-section, #faq-section, #form-section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 5px 0 10px 0;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}

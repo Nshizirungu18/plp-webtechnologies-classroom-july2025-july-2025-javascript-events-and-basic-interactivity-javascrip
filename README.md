@@ -1,58 +1,111 @@
-# 🧠 Assignment: Interactive Web Pages with JavaScript
+# 📘 Interactive Web Page – JavaScript Events & Basic Interactivity
 
-Welcome to the exciting world of interactivity! This assignment is all about **making your web pages feel alive**. You’ll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful. 🚀
-
----
-
-## 🎉 Part 1: JavaScript Event Handling and Interactive Elements
-
-Let’s start with the basics of **event handling**. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
-
-**Goal:** Use event listeners to react to user behavior and trigger changes on the page (e.g., showing messages, toggling classes, hiding/showing content).
+This project is part of the **PLP Web Development – Week 6 Assignment**, focusing on JavaScript **events**, **DOM manipulation**, **interactive features**, and **custom form validation**.
+The goal is to make a webpage feel *interactive, dynamic, and responsive* without reloading.
 
 ---
 
-## 🎮 Part 2: Building Interactive Elements
+## 🚀 Project Features
 
-Now it’s time to apply what you’ve learned by creating your own mini interactive features. You can build things like:
+### ✅ 1. Event Handling
 
-* A light/dark mode toggle
-* A counter or button game
-* A collapsible FAQ section
-* A simple dropdown menu
-* A tabbed interface
+The webpage uses JavaScript event listeners to respond to:
 
-**Goal:** Use DOM manipulation + events to make the page dynamic and engaging. Be creative!
+* Button clicks
+* Form submissions
+* Toggle actions
+* Show/hide content actions
 
----
-
-## 📋✅ Part 3: Form Validation with JavaScript
-
-Forms are essential to the web—and validating them properly is key to good user experience. You’ll build a form with multiple input fields (name, email, password, etc.) and write JavaScript to validate each field when the user submits or types.
-
-**Goal:** Prevent incorrect form submissions by writing custom validation logic using conditions and regular expressions. Show user-friendly error messages and success feedback.
+These interactions make the page dynamic and reactive to user behavior.
 
 ---
 
-## Deliverables
+### 🎮 2. Interactive Elements
 
-* `index.html`: Your structured web page with at least one form and several interactive sections
-* `script.js`: Your JavaScript file with:
+This project includes **multiple interactive features**, created from scratch:
 
-  * Event handling for buttons, inputs, or links
-  * At least 2 interactive features created from scratch
-  * A fully functioning custom form validation (no HTML5-only validation)
-* `style.css` (optional but encouraged): To style your interactive elements
+#### ⭐ **Light/Dark Mode Toggle**
 
-Each section of your JavaScript should be commented to explain its purpose.
+Switches the entire website theme between light and dark modes using CSS classes + JS events.
+
+#### ⭐ **Click Counter**
+
+A button that increments a counter every time it’s clicked.
+Great practice for DOM updates and state management.
+
+#### ⭐ **Collapsible FAQ Section**
+
+Users can expand or collapse answers by clicking each question.
+Perfect demonstration of DOM manipulation + event listeners.
 
 ---
 
-## Outcome
+### 📋 3. Custom Form Validation (No HTML5-only validation!)
 
-* Use of event listeners and appropriate event types
-* Creativity and functionality of interactive elements
-* Form validation accuracy and helpfulness of feedback
-* Clear, modular, and well-commented JavaScript code
-* A clean and functional user experience
+The project includes a Sign-Up Form with:
+
+* Name
+* Email
+* Password
+
+Validation is handled entirely with JavaScript:
+
+* Name must be at least **3 characters**
+* Email must match a **valid regex pattern**
+* Password must be **6+ characters**
+* Error messages appear below inputs
+* Success message appears upon successful validation
+
+This ensures the user cannot submit invalid data.
+
+---
+
+## 📂 Project Structure
+
+```
+📁 project-folder/
+ ├── index.html       # Webpage structure and content
+ ├── style.css        # Styling (dark/light mode, layout, colors)
+ └── script.js        # All interactivity, events & validation
+```
+
+---
+
+## 🧠 What This Project Demonstrates
+
+* Use of **JavaScript event listeners**
+* Ability to build **custom interactive features**
+* Understanding of **DOM manipulation**
+* Implementation of **custom form validation logic**
+* Clean and readable code with **comments**
+* User-friendly design + smooth functionality
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5** – Structure
+* **CSS3** – Styling + dark mode
+* **JavaScript (ES6)** – Interactivity, validation, DOM updated
+
+---
+
+## 📦 How to Run the Project
+
+1. Download or clone this repository:
+
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. Open the project folder.
+3. Open `index.html` in a browser (Chrome, Firefox, Edge…)
+4. Interact with the page and explore the features!
+
+---
+
+## 👩‍💻 Author
+
+**Nshizirungu Emmanuel**
+PLP Web Development – July 2025 Cohort
+
 
